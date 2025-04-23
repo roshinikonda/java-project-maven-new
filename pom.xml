@@ -9,6 +9,8 @@
 	<url>http://maven.apache.org</url>
 	 <properties>
      <maven.compiler.source>1.8</maven.compiler.source>
+     <sonar.nodejs.executable>/root/.nvm/versions/node/v18.20.8/bin/node<
+     /sonar.nodejs.executable>	 
      <maven.compiler.target>1.8</maven.compiler.target>
 </properties>
 
@@ -50,10 +52,5 @@
 		<url>https://repo1.maven.org/maven2</url>
 	    </pluginRepository>
 	</pluginRepositories>
-	
-<properties>
-  <sonar.nodejs.executable>/root/.nvm/versions/node/v18.20.8/bin/node<
-/sonar.nodejs.executable>
-</properties>
 	
 </project>
