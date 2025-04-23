@@ -7,11 +7,10 @@
 	<version>8.3.3-SNAPSHOT</version>
 	<name>myapp</name>
 	<url>http://maven.apache.org</url>
-	 <properties>
-     <maven.compiler.source>1.8</maven.compiler.source>
-     <sonar.nodejs.executable>/root/.nvm/versions/node/v18.20.8/bin/node<
-     /sonar.nodejs.executable>	 
-     <maven.compiler.target>1.8</maven.compiler.target>
+	<properties>
+  <maven.compiler.source>1.8</maven.compiler.source>
+  <maven.compiler.target>1.8</maven.compiler.target>
+  <sonar.nodejs.executable>/root/.nvm/versions/node/v18.20.8/bin/node</sonar.nodejs.executable>
 </properties>
 
 	<dependencies>
